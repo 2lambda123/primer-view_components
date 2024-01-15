@@ -69,8 +69,8 @@ Kuby.define("ViewComponentsStorybook") do
       package_phase.remove :yarn
       delete :yarn_phase
 
-      package_phase.add :nodejs, "16.13.2"
-      package_phase.add :npm, "16.13.2"
+      package_phase.add :node, "16.13.2"
+      package_phase.add :npm_package_manager, "16.13.2"
 
       # Kuby copies over only Gemfiles, i.e. no app code, before attempting to
       # bundle install to prevent busting the layer cache and having to reinstall
