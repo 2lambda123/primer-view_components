@@ -1,5 +1,17 @@
 # Contributing
 
+## Troubleshooting Failed GitHub Actions Runs
+If you encounter a failed GitHub Actions run, it's important to be able to troubleshoot the issue effectively. Follow these steps to analyze error logs and identify common issues:
+1. Examine the error logs to identify the root cause of the failure.
+2. Look for common issues such as dependency errors, test failures, and syntax problems.
+3. Check for GitHub Actions limitations or restrictions that may impact the workflow.
+
+## Writing Tests to Prevent Failed Runs
+To prevent failed runs, it's essential to have a robust test suite. Consider the following tips when writing tests:
+1. Cover all critical functionality with tests to catch potential issues early.
+2. Use descriptive test names and assertions to clearly indicate the expected behavior.
+3. Regularly monitor and update tests to reflect changes in the codebase and prevent regressions.
+
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
 If you have any substantial changes that you would like to make, please [open an issue](http://github.com/primer/view_components/issues/new) first to discuss them with us.
